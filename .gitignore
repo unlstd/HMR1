@@ -1,0 +1,7 @@
+# KiCad
+*.kicad_prl
+*.lck
+*-backups/
+
+# OS/editor junk
+.DS_Store
