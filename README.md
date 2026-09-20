@@ -16,6 +16,7 @@ It contains the following components:
 * PC (also known as IP)
 * Internal 4 MHz clock and reset signal generator
 * CU
+* IC (Interrupt Controller)
 
 The computer itself is still a work in progress, but most of it is already done.
 
@@ -31,4 +32,5 @@ You can track the progress using the checklist below:
 * [x] PC
 * [ ] Motherboard
 * [ ] CU
+* [ ] IC
 * [ ] Internal 4 MHz clock and reset signal generator
