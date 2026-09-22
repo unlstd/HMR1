@@ -417,7 +417,7 @@
         "uuid": "72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2"
       }
     ],
-    "used_designators": "J1_2-8,R1-112,U1-135,Q1-48,J1-49,C1-138,#PWR1-99",
+    "used_designators": "J1_2-8,R1-112,U1-139,Q1-48,J1-49,C1-144,#PWR1-99",
     "variants": []
   },
   "sheets": [
@@ -496,6 +496,10 @@
     [
       "6509b51f-3acf-431d-a545-6789eb04887f",
       "A Register"
+    ],
+    [
+      "1bb24265-0258-4f65-add1-404c61d7dd27",
+      "IR"
     ]
   ],
   "text_variables": {},

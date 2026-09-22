@@ -905,6 +905,450 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "74xx:74HC04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC04"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Hex Inverter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "HCMOS not inv"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC04_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_7_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC04_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74HC245"
 			(pin_names
 				(offset 1.016)
@@ -2692,6 +3136,12 @@
 		(uuid "4dd1f7d6-b9d3-449b-a9fa-856fa65b6177")
 	)
 	(junction
+		(at 240.03 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "518c18e3-3fea-4d9a-b5ba-6be57f5ba0ae")
+	)
+	(junction
 		(at 127 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2752,6 +3202,12 @@
 		(uuid "7e8a9350-6a90-4f61-ad97-451246272db3")
 	)
 	(junction
+		(at 243.84 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b96834-f22d-4128-bd74-17156fc06db4")
+	)
+	(junction
 		(at 182.88 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2768,6 +3224,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b0a4375-bcda-4d64-a3fc-59bb0ef820a2")
+	)
+	(junction
+		(at 232.41 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92dc1900-295a-4721-a4f6-489c4a0d1d80")
 	)
 	(junction
 		(at 133.35 76.2)
@@ -2824,6 +3286,12 @@
 		(uuid "b8dd7a3a-8405-456c-a812-a2802f4b89e7")
 	)
 	(junction
+		(at 246.38 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b57610-3d4a-465a-b1c1-f40a215578e3")
+	)
+	(junction
 		(at 106.68 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2852,6 +3320,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb6add87-90ff-46f2-90db-7c0a730bd400")
+	)
+	(junction
+		(at 199.39 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd98b13b-2c5b-4cf9-8372-89b399441b78")
 	)
 	(junction
 		(at 90.17 223.52)
@@ -3087,6 +3561,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 224.79) (xy 271.78 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db91c2d-83bb-4fd6-aeb5-df8a872b62d4")
+	)
+	(wire
+		(pts
 			(xy 92.71 220.98) (xy 92.71 222.25)
 		)
 		(stroke
@@ -3237,6 +3721,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 208.28) (xy 246.38 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bd11a2-9a9c-482d-9336-6d536d3ee2a2")
+	)
+	(wire
+		(pts
 			(xy 99.06 26.67) (xy 99.06 44.45)
 		)
 		(stroke
@@ -3364,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "20379e1c-13cd-4cc8-bc04-b45ee1a63f8b")
+	)
+	(wire
+		(pts
+			(xy 199.39 191.77) (xy 246.38 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209d1cf0-ac02-4c26-99a4-520622af19af")
 	)
 	(wire
 		(pts
@@ -3554,6 +4058,16 @@
 			(type default)
 		)
 		(uuid "2e87ae38-51b4-4f66-b496-0fdf7e003d83")
+	)
+	(wire
+		(pts
+			(xy 232.41 250.19) (xy 232.41 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebcda98-9e37-4de2-92cc-655fe06c9bf8")
 	)
 	(wire
 		(pts
@@ -4397,6 +4911,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 208.28) (xy 243.84 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684e1eda-4e26-4e5a-8a39-2cabaa2be7f7")
+	)
+	(wire
+		(pts
 			(xy 132.08 111.76) (xy 132.08 168.91)
 		)
 		(stroke
@@ -4407,7 +4931,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 222.25) (xy 232.41 261.62)
+			(xy 232.41 222.25) (xy 232.41 250.19)
 		)
 		(stroke
 			(width 0)
@@ -4424,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "6a3f4f30-0ebc-405f-9c16-8559666854e6")
+	)
+	(wire
+		(pts
+			(xy 243.84 224.79) (xy 271.78 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5ca97a-4e10-4334-865d-a0137f88b959")
 	)
 	(wire
 		(pts
@@ -5167,6 +5701,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 250.19) (xy 139.7 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40118d4-0463-47f6-a8d2-7ebd61a88726")
+	)
+	(wire
+		(pts
 			(xy 85.09 195.58) (xy 85.09 187.96)
 		)
 		(stroke
@@ -5174,6 +5718,16 @@
 			(type default)
 		)
 		(uuid "a434398c-df6e-43c9-aac1-29f1bfc39841")
+	)
+	(wire
+		(pts
+			(xy 222.25 250.19) (xy 232.41 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a455084f-9af4-40ca-a713-b2359cc4edce")
 	)
 	(wire
 		(pts
@@ -5677,6 +6231,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 219.71) (xy 243.84 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7293f48-0bf7-4524-921f-908867fb6c27")
+	)
+	(wire
+		(pts
 			(xy 156.21 86.36) (xy 156.21 127)
 		)
 		(stroke
@@ -5724,6 +6288,16 @@
 			(type default)
 		)
 		(uuid "cc8d1166-4fdc-438d-81c0-2a974b0de128")
+	)
+	(wire
+		(pts
+			(xy 240.03 224.79) (xy 243.84 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1f018a-8d73-4bdc-b185-860b5e9b0a23")
 	)
 	(wire
 		(pts
@@ -5794,16 +6368,6 @@
 			(type default)
 		)
 		(uuid "d5329e05-31ab-4b34-9135-b21005b6ae2e")
-	)
-	(wire
-		(pts
-			(xy 139.7 222.25) (xy 139.7 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59adffc-eb70-4a05-8247-e5ebd521fa91")
 	)
 	(wire
 		(pts
@@ -6187,6 +6751,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 208.28) (xy 243.84 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d7749e-66c1-44cc-81c2-7e2cd7b1c31c")
+	)
+	(wire
+		(pts
+			(xy 139.7 222.25) (xy 139.7 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c4c816-a940-4c20-914f-df476774c461")
+	)
+	(wire
+		(pts
 			(xy 74.93 182.88) (xy 101.6 182.88)
 		)
 		(stroke
@@ -6286,27 +6870,16 @@
 		)
 		(uuid "080a1a05-6c8d-4f1c-9863-738d73915d27")
 	)
-	(hierarchical_label "MAR_DATA_GATE#"
+	(hierarchical_label "MAR_GATE[0->DATA;1->ADDR]"
 		(shape input)
-		(at 232.41 261.62 270)
+		(at 232.41 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0ace15d5-f695-4f0c-bbf9-7587ed44f30d")
-	)
-	(hierarchical_label "MAR_ADDR_GATE#"
-		(shape input)
-		(at 139.7 261.62 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0eb4ee55-f954-4a7a-9241-29c7b70ada5f")
 	)
 	(hierarchical_label "M8"
 		(shape output)
@@ -7071,6 +7644,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC04")
+		(at 334.01 205.74 180)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f314dce-f63a-4bc9-8da6-88e8326541d0")
+		(property "Reference" "U4"
+			(at 334.01 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 334.01 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 334.01 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 334.01 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf149784b")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e42")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff33a")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f013")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a560")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae0025489d")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd8a")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca4312c")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f722")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced9807")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b77d")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4f4")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d2")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf2")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC245")
 		(at 219.71 208.28 90)
 		(unit 1)
@@ -7577,6 +8266,122 @@
 				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
 					(reference "#PWR053")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 314.96 207.01 180)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41a96459-e47e-4f40-a943-0a9441d304a9")
+		(property "Reference" "U4"
+			(at 314.96 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 314.96 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 314.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 314.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf149784c")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e43")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff33b")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f014")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a561")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae0025489e")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd8b")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca4312d")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f723")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced9808")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b77e")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4f5")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d3")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf3")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -8419,6 +9224,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC04")
+		(at 259.08 208.28 90)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773aafb5-50a2-48c5-a363-e139bfd7ef63")
+		(property "Reference" "U4"
+			(at 259.08 198.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 259.08 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 259.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 259.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf149784d")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e44")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff33c")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f015")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a562")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae0025489f")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd8c")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca4312e")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f724")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced9809")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b77f")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4f6")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d4")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf4")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 250.19 73.66 0)
 		(unit 1)
@@ -8747,6 +9668,238 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC04")
+		(at 335.28 215.9 180)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5154d2e-cb2f-440d-9570-14f1029d01c0")
+		(property "Reference" "U4"
+			(at 335.28 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 335.28 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 335.28 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 335.28 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf149784e")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e45")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff33d")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f016")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a563")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae002548a0")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd8d")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca4312f")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f725")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced980a")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b780")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4f7")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d5")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf5")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 314.96 217.17 180)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aad2801b-47c8-4516-9dc2-58a90a2e40fc")
+		(property "Reference" "U4"
+			(at 314.96 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 314.96 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 314.96 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 314.96 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf149784f")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e46")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff33e")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f017")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a564")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae002548a1")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd8e")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca43130")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f726")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced980b")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b781")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4f8")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d6")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf6")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 262.89 127 90)
 		(unit 1)
@@ -9019,6 +10172,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC04")
+		(at 214.63 250.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3153259-ebfd-41ca-b5b3-9df2abf5cb3f")
+		(property "Reference" "U4"
+			(at 214.63 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 214.63 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 214.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 214.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf1497850")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e47")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff33f")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f018")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a565")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae002548a2")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd8f")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca43131")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f727")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced980c")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b782")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4f9")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d7")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf7")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 104.14 215.9 0)
 		(unit 1)
@@ -9181,6 +10450,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC04")
+		(at 314.96 228.6 180)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac5518d-be01-46ce-98e1-c339df5e72aa")
+		(property "Reference" "U4"
+			(at 314.96 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 314.96 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 314.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 314.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "dc0693c1-6ff3-4769-ab73-29acf1497851")
+		)
+		(pin "14"
+			(uuid "f5dcf12e-7f4b-4d71-8741-1c210d210e48")
+		)
+		(pin "13"
+			(uuid "90428554-2c9d-4083-9453-d1e678eff340")
+		)
+		(pin "11"
+			(uuid "1fc4673c-06d0-492a-8bbf-f93fd997f019")
+		)
+		(pin "7"
+			(uuid "0524447b-aa60-4359-907e-3038e421a566")
+		)
+		(pin "9"
+			(uuid "3e164226-7607-4ac1-8097-85ae002548a3")
+		)
+		(pin "10"
+			(uuid "d1944073-b81d-492a-acdf-5247df52cd90")
+		)
+		(pin "6"
+			(uuid "83de9e7b-7bba-4d78-bab2-93de8ca43132")
+		)
+		(pin "8"
+			(uuid "4187954c-d4ed-445f-af8a-9c745e16f728")
+		)
+		(pin "3"
+			(uuid "46e0b4be-d23e-47f6-84f4-66632ced980d")
+		)
+		(pin "2"
+			(uuid "5aaec6e1-a1d4-4bbc-9213-165ba563b783")
+		)
+		(pin "1"
+			(uuid "3f762de0-21f4-44b1-a766-a02f9a42b4fa")
+		)
+		(pin "5"
+			(uuid "da15d8ff-2a73-4754-842c-a55e771277d8")
+		)
+		(pin "4"
+			(uuid "3231af6d-e679-4429-b160-cb8eca86fbf8")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC245")
 		(at 172.72 208.28 90)
 		(unit 1)
@@ -9309,6 +10694,88 @@
 			(project "HOMER1"
 				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
 					(reference "U49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d138dc14-cec0-4252-be8f-2c2513c117ea")
+		(property "Reference" "C137"
+			(at 247.65 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 247.65 217.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 244.8052 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4eda763-db3f-4e81-8f67-684579ebaaa3")
+		)
+		(pin "1"
+			(uuid "a2068b78-fa76-42ad-a775-7602bd36ee0d")
+		)
+		(instances
+			(project "HOMER1"
+				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2/7d0cef04-5a74-4695-96e5-c6e31cd6eee1"
+					(reference "C137")
 					(unit 1)
 				)
 			)

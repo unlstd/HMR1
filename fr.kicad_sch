@@ -4051,7 +4051,7 @@
 		)
 		(uuid "6deb331c-fbc7-4d80-9e4b-887b5d28a5f1")
 	)
-	(hierarchical_label "FR_IN"
+	(hierarchical_label "FR_IN#"
 		(shape input)
 		(at 233.68 163.83 270)
 		(effects
