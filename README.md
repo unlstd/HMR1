@@ -11,6 +11,7 @@ It contains the following components:
 * MDR
 * SP
 * HP
+* IR
 * 8 × 16-bit GPRs
 * FR
 * PC (also known as IP)
@@ -30,6 +31,7 @@ You can track the progress using the checklist below:
 * [x] GPRs
 * [x] FR
 * [x] PC
+* [ ] IR
 * [ ] Motherboard
 * [ ] CU
 * [ ] IC
