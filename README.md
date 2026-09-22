@@ -31,7 +31,7 @@ You can track the progress using the checklist below:
 * [x] GPRs
 * [x] FR
 * [x] PC
-* [ ] IR
+* [x] IR
 * [ ] Motherboard
 * [ ] CU
 * [ ] IC
