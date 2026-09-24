@@ -417,7 +417,7 @@
         "uuid": "72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2"
       }
     ],
-    "used_designators": "J1_2-8,R1-112,U1-139,Q1-48,J1-49,C1-144,#PWR1-99",
+    "used_designators": "#PWR1-99,C1-151,J1-49,Q1-48,U1-143,R1-112,J1_2-8,EEPROM2-4",
     "variants": []
   },
   "sheets": [
@@ -500,6 +500,14 @@
     [
       "1bb24265-0258-4f65-add1-404c61d7dd27",
       "IR"
+    ],
+    [
+      "b897a18b-cd94-47c9-9eb3-bb4dc5c20c82",
+      "Control Unit"
+    ],
+    [
+      "e5512c19-3f1f-4aad-ad32-a3a538034979",
+      "Control Logic"
     ]
   ],
   "text_variables": {},

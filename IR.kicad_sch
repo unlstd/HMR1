@@ -5305,7 +5305,7 @@
 		)
 		(uuid "fe325223-5dbb-4294-a7a9-6617eed895cf")
 	)
-	(hierarchical_label "0"
+	(hierarchical_label "BIT0"
 		(shape output)
 		(at 128.27 30.48 90)
 		(effects
@@ -5362,7 +5362,7 @@
 			)
 		)
 	)
-	(hierarchical_label "RES0"
+	(hierarchical_label "JCC0"
 		(shape output)
 		(at 125.73 30.48 90)
 		(effects
@@ -5371,7 +5371,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2521ad6d-2654-4588-80f5-9dc3c1f36f81")
+		(uuid "2a17f4dc-1b7d-4a3c-966d-547fd79babc3")
 	)
 	(hierarchical_label "D2"
 		(shape tri_state)
@@ -5494,6 +5494,17 @@
 		)
 		(uuid "50442528-92f8-48e8-9f36-338d8de3e6bd")
 	)
+	(hierarchical_label "JCC1"
+		(shape output)
+		(at 123.19 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53965ba8-8328-4df5-8c5b-1790c4b035cf")
+	)
 	(hierarchical_label "RS20"
 		(shape output)
 		(at 118.11 30.48 90)
@@ -5526,17 +5537,6 @@
 			(justify right)
 		)
 		(uuid "66bc3212-e532-4742-a4fe-fb59b941ef45")
-	)
-	(hierarchical_label "RES1"
-		(shape output)
-		(at 123.19 30.48 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ff3c9c3-44fa-4abe-b21b-8889b4be1461")
 	)
 	(hierarchical_label "D14"
 		(shape tri_state)
@@ -5659,6 +5659,17 @@
 		)
 		(uuid "e87cf7a8-1ec7-4666-8589-960cb5769f82")
 	)
+	(hierarchical_label "JCC2"
+		(shape output)
+		(at 120.65 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea5a983c-a4ef-4914-8f0f-42ac2773bd5b")
+	)
 	(hierarchical_label "D3"
 		(shape tri_state)
 		(at 120.65 158.75 270)
@@ -5691,17 +5702,6 @@
 			(justify left)
 		)
 		(uuid "f6bcda33-1679-4d38-8dc8-46959eb759b7")
-	)
-	(hierarchical_label "RES2"
-		(shape output)
-		(at 120.65 30.48 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f786aecb-0948-4c74-8afc-b5d651224a2b")
 	)
 	(hierarchical_label "D5"
 		(shape tri_state)
