@@ -27394,7 +27394,7 @@
 		)
 		(uuid "9c6e5176-a68f-4d26-8614-65675a41e183")
 	)
-	(hierarchical_label "ALU_A_IN"
+	(hierarchical_label "#ALU_A_IN"
 		(shape input)
 		(at 500.38 515.62 270)
 		(effects
@@ -27471,7 +27471,7 @@
 		)
 		(uuid "d4e03cb9-034a-4fa3-ae39-516d8b09cb0b")
 	)
-	(hierarchical_label "ALU_B_IN"
+	(hierarchical_label "#ALU_B_IN"
 		(shape input)
 		(at 502.92 515.62 270)
 		(effects

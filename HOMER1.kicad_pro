@@ -417,7 +417,7 @@
         "uuid": "72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2"
       }
     ],
-    "used_designators": "#PWR1-99,C1-151,J1-49,Q1-48,U1-143,R1-112,J1_2-8,EEPROM2-4",
+    "used_designators": "EXDP1-7,#PWR1-99,C1-162,J1-54,Q1-48,U1-158,R1-112,J1_2-9,EEPROM2-5",
     "variants": []
   },
   "sheets": [
@@ -508,6 +508,10 @@
     [
       "e5512c19-3f1f-4aad-ad32-a3a538034979",
       "Control Logic"
+    ],
+    [
+      "d40aa965-e00b-4c44-944b-7ae45500dd85",
+      "Interrput Controller"
     ]
   ],
   "text_variables": {},
