@@ -417,7 +417,7 @@
         "uuid": "72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2"
       }
     ],
-    "used_designators": "EXDP1-7,#PWR1-99,C1-162,J1-54,Q1-48,U1-158,R1-112,J1_2-9,EEPROM2-5",
+    "used_designators": "EXDP1-7,#PWR1-99,C1-163,J1-54,Q1-48,U1-158,R1-112,J1_2-9,EEPROM2-5",
     "variants": []
   },
   "sheets": [

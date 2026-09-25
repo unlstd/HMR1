@@ -4056,6 +4056,12 @@
 		(uuid "0ace915a-530d-4632-bcd1-2622865c9d38")
 	)
 	(junction
+		(at 278.13 919.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b15d2e3-708c-4496-b784-e991df756aa9")
+	)
+	(junction
 		(at 400.05 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9135,6 +9141,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 919.48) (xy 295.91 919.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb4d933-6c73-4b3e-91f1-807f28983cda")
+	)
+	(wire
+		(pts
 			(xy 410.21 287.02) (xy 410.21 347.98)
 		)
 		(stroke
@@ -9472,6 +9488,16 @@
 			(type default)
 		)
 		(uuid "11bb743a-def8-4fb2-9013-b73eb9c9b444")
+	)
+	(wire
+		(pts
+			(xy 278.13 919.48) (xy 278.13 990.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dd5edf-eb36-49a3-bc66-5ad194ab2699")
 	)
 	(wire
 		(pts
@@ -10655,7 +10681,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 657.86) (xy 278.13 990.6)
+			(xy 278.13 657.86) (xy 278.13 919.48)
 		)
 		(stroke
 			(width 0)
@@ -32911,36 +32937,6 @@
 				(justify right)
 			)
 		)
-		(pin "INTERRUPT_ACTIVE" input
-			(at 295.91 998.22 180)
-			(uuid "4b6b41c4-d32a-4830-b290-237d06b71ac4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "#END_INSTRUCTION" output
-			(at 295.91 988.06 180)
-			(uuid "136d7fca-5c5b-41a5-8737-92e92365eed6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENTER_SUPERVISOR" input
-			(at 295.91 995.68 180)
-			(uuid "2ee3e8e7-8a4d-4645-89a8-f37ba4c40873")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IRQ_CLEAR" output
 			(at 295.91 922.02 180)
 			(uuid "d6c320e1-a3b8-49f2-8947-31262fada35b")
@@ -33214,6 +33210,16 @@
 		(pin "FR_SRC_SEL" output
 			(at 373.38 1002.03 270)
 			(uuid "81ff8fda-6b10-417d-a751-b6650795f226")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IRQ" input
+			(at 295.91 919.48 180)
+			(uuid "66e5d8f9-5bea-4f13-ba76-7cdc8453c761")
 			(effects
 				(font
 					(size 1.27 1.27)
