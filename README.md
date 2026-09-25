@@ -33,6 +33,6 @@ You can track the progress using the checklist below:
 * [x] PC
 * [x] IR
 * [x] IC
-* [ ] CU
-* [ ] Motherboard
+* [x] CU
+* [x] Motherboard
 * [ ] Internal 4 MHz clock and reset signal generator
