@@ -3573,6 +3573,16 @@
 		)
 		(uuid "238d9725-5ad9-4b7e-8795-e1c18e1ce8af")
 	)
+	(text "#RESET"
+		(exclude_from_sim no)
+		(at 246.38 437.134 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "239b0d12-79d9-462a-8bb4-981bd456c315")
+	)
 	(text "#DATA_IN_EN\n<-------"
 		(exclude_from_sim no)
 		(at 119.888 941.324 0)
@@ -3765,7 +3775,7 @@
 	)
 	(text "MAR_SIGNALS"
 		(exclude_from_sim no)
-		(at 251.714 878.332 0)
+		(at 257.556 879.602 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3792,6 +3802,16 @@
 			)
 		)
 		(uuid "ec2c6643-51b0-4da6-9623-a1fcb31dffc4")
+	)
+	(text "#RESET"
+		(exclude_from_sim no)
+		(at 247.396 880.11 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "eeef0ea5-345c-4aca-a375-64d9aa0d0082")
 	)
 	(text "CARRY_FLAG"
 		(exclude_from_sim no)
@@ -6294,6 +6314,12 @@
 		(uuid "869a9f15-addb-44d5-b0e0-5768531a0ca7")
 	)
 	(junction
+		(at 250.19 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86d75c8f-986b-4c98-abdd-cfd1c22762ca")
+	)
+	(junction
 		(at 387.35 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8298,6 +8324,12 @@
 		(uuid "f802e83a-49f8-4c07-bfbe-4b3ddd81743d")
 	)
 	(junction
+		(at 250.19 995.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f84a4796-d4d2-4677-9a33-8d4aef13bb9a")
+	)
+	(junction
 		(at 57.15 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9898,6 +9930,16 @@
 			(type default)
 		)
 		(uuid "1858212c-4474-4fa3-8e2d-650f7dcf0e85")
+	)
+	(wire
+		(pts
+			(xy 295.91 995.68) (xy 250.19 995.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186e5011-b2ad-435a-a653-18345e4f429f")
 	)
 	(wire
 		(pts
@@ -13541,6 +13583,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 995.68) (xy 250.19 1002.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1dd5ca-a5f8-4459-8b7e-f6a535c4bdc6")
+	)
+	(wire
+		(pts
 			(xy 49.53 38.1) (xy 327.66 38.1)
 		)
 		(stroke
@@ -15471,6 +15523,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 403.86) (xy 95.25 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80efc89a-f3e5-415c-9d9b-b713a3951057")
+	)
+	(wire
+		(pts
 			(xy 427.99 147.32) (xy 427.99 199.39)
 		)
 		(stroke
@@ -15958,6 +16020,16 @@
 			(type default)
 		)
 		(uuid "8b867ddd-1a46-4f5d-a515-d402f4eb2539")
+	)
+	(wire
+		(pts
+			(xy 250.19 403.86) (xy 95.25 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba30eaf-dd9f-4248-a7cb-0ccd362a3d08")
 	)
 	(wire
 		(pts
@@ -21941,6 +22013,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 403.86) (xy 250.19 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f820819d-7637-4db9-823f-353e9517f813")
+	)
+	(wire
+		(pts
 			(xy 36.83 288.29) (xy 311.15 288.29)
 		)
 		(stroke
@@ -22228,6 +22310,16 @@
 			(type default)
 		)
 		(uuid "fcb0a073-5aa6-4dd7-8996-e50eecdd7959")
+	)
+	(wire
+		(pts
+			(xy 250.19 403.86) (xy 250.19 995.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb9bbe6-63c4-4a72-b4e0-e7ffed8b65bf")
 	)
 	(wire
 		(pts
@@ -30251,6 +30343,16 @@
 				(justify left)
 			)
 		)
+		(pin "#RESET" input
+			(at 311.15 403.86 180)
+			(uuid "4a3d5340-250a-45a7-86e9-a0e3f59f477f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "HOMER1"
 				(path "/72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2"
@@ -32828,13 +32930,13 @@
 			)
 		)
 		(pin "#RESET" input
-			(at 422.91 998.22 0)
+			(at 295.91 995.68 180)
 			(uuid "c23fdeb5-7bdc-48fb-a308-fdb020b39027")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CLK" input
