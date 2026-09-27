@@ -22,6 +22,7 @@ It contains the following components:
 The computer itself is still a work in progress, but most of it is already done.
 
 You can track the progress using the checklist below:
+You COULD track progress, but now it's done! Like 100% done! (okay maybe not but still it's done)
 
 * [x] ALU
 * [x] MAR
@@ -35,4 +36,4 @@ You can track the progress using the checklist below:
 * [x] IC
 * [x] CU
 * [x] Motherboard
-* [ ] Internal 4 MHz clock and reset signal generator
+* [x] Internal 4 MHz clock and reset signal generator
