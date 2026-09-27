@@ -417,17 +417,13 @@
         "uuid": "72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2"
       }
     ],
-    "used_designators": "EXDP1-7,#PWR1-99,C1-166,J1-54,Q1-48,U1-158,R1-112,J1_2-9,EEPROM2-5",
+    "used_designators": "EXDP1-7,#PWR1-99,#PWR104-105,C1-176,J1-54,Q1-48,U1-171,R1-112,J1_2-9,EEPROM2-5",
     "variants": []
   },
   "sheets": [
     [
       "72ec8e0c-6b7d-4544-bb38-8ca502a0b7c2",
       "Główny"
-    ],
-    [
-      "d6d5a0b7-817e-47ed-a834-5eedf59fab65",
-      "Program Counter"
     ],
     [
       "8ea72431-e24c-4f6f-b2db-5c4543df60ad",
@@ -512,6 +508,10 @@
     [
       "d40aa965-e00b-4c44-944b-7ae45500dd85",
       "Interrput Controller"
+    ],
+    [
+      "e48d3f5d-35b0-412c-a62b-4e7633b2001f",
+      "Program Counter"
     ]
   ],
   "text_variables": {},
