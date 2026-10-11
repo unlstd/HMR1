@@ -22,7 +22,6 @@ It contains the following components:
 The computer itself is still a work in progress, but most of it is already done.
 
 You can track the progress using the checklist below:
-You COULD track progress, but now it's done! Like 100% done! (okay maybe not but still it's done)
 
 * [x] ALU
 * [x] MAR
@@ -37,3 +36,19 @@ You COULD track progress, but now it's done! Like 100% done! (okay maybe not but
 * [x] CU
 * [x] Motherboard
 * [x] Internal 4 MHz clock and reset signal generator
+
+So, even though all the schematics are complete, that doesn't mean the PCBs have been made yet. Here's a little checklist to track the progress of designing the actual PCBs:
+
+* [ ] ALU
+* [ ] MAR
+* [ ] MDR
+* [ ] SP
+* [ ] HP
+* [ ] GPRs
+* [ ] FR
+* [ ] PC
+* [ ] IR
+* [ ] IC
+* [ ] CU
+* [ ] Motherboard
+* [ ] Internal 4 MHz clock and reset signal generator
