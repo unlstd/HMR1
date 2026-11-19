@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -492,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ALU.kicad_pro",
+    "filename": "alu.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -660,26 +660,26 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ALU.kicad_sch",
-        "name": "Główny",
-        "uuid": "15598fe3-2e83-46db-9c63-2ad58f214048"
+        "filename": "alu.kicad_sch",
+        "name": "alu",
+        "uuid": "69e7f3c7-573a-4c3b-8692-05d4abd7cd62"
       }
     ],
-    "used_designators": "#PWR1-18,#PWR55-56,#PWR67-74,C41-42,C51-98,J1,J36-39,Q37-42,R85-98,U34-35,U37-42,U51-92",
+    "used_designators": "J1",
     "variants": []
   },
   "sheets": [
     [
-      "15598fe3-2e83-46db-9c63-2ad58f214048",
-      "Główny"
+      "69e7f3c7-573a-4c3b-8692-05d4abd7cd62",
+      "alu"
     ],
     [
-      "b45e9bb1-d5a5-4c1c-9064-5c0b3f2dfa71",
-      "A Register"
-    ],
-    [
-      "ff06372d-3a69-45e0-8edd-2e6faca779b8",
+      "ee1892be-0099-4c16-9ee5-2c7503c1f85e",
       "B Register"
+    ],
+    [
+      "6509b51f-3acf-431d-a545-6789eb04887f",
+      "A Register"
     ]
   ],
   "text_variables": {},
