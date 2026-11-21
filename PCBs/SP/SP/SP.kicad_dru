@@ -1,0 +1,7 @@
+(version 1)
+(rule Copper_to_hole_clearance_1
+	(constraint hole_clearance (min 0.5mm))
+)
+(rule Minimum_clearance_1
+	(constraint clearance (min 0.2mm))
+)
