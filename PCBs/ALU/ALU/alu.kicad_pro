@@ -663,9 +663,29 @@
         "filename": "alu.kicad_sch",
         "name": "alu",
         "uuid": "69e7f3c7-573a-4c3b-8692-05d4abd7cd62"
+      },
+      {
+        "filename": "alu_register_module.kicad_sch",
+        "name": "ALU_REGISTER_MODULE",
+        "uuid": "440dc31a-5964-4461-9fa2-5f9843484386"
+      },
+      {
+        "filename": "alu_arthmetic_module.kicad_sch",
+        "name": "ALU_ARTHMETIC_MODULE",
+        "uuid": "a3e06489-b0b7-4b4e-b3b9-a23db6e823f7"
+      },
+      {
+        "filename": "alu_logic_module.kicad_sch",
+        "name": "ALU_LOGIC_MODULE1",
+        "uuid": "e560f081-1b09-438e-89c3-d2c497a8b9f1"
+      },
+      {
+        "filename": "alu_logic_module2.kicad_sch",
+        "name": "ALU_LOGIC_MODULE2",
+        "uuid": "ffa0b4a5-2124-49cb-8124-0e41e28a9a02"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "#PWR19-54,#PWR57-64,#PWR75-86,C43-44,C99-178,J1-27,J40-45,Q43-51,R99-119,U1-4,U36,U43-50,U93-161",
     "variants": []
   },
   "sheets": [
@@ -680,6 +700,30 @@
     [
       "6509b51f-3acf-431d-a545-6789eb04887f",
       "A Register"
+    ],
+    [
+      "440dc31a-5964-4461-9fa2-5f9843484386",
+      "ALU_REGISTER_MODULE"
+    ],
+    [
+      "be26898c-dd87-448b-8b6e-1e3e447cf1ae",
+      "A Register"
+    ],
+    [
+      "cc5d4428-aeeb-419b-88da-b034762c7274",
+      "B Register"
+    ],
+    [
+      "a3e06489-b0b7-4b4e-b3b9-a23db6e823f7",
+      "ALU_ARTHMETIC_MODULE"
+    ],
+    [
+      "e560f081-1b09-438e-89c3-d2c497a8b9f1",
+      "ALU_LOGIC_MODULE1"
+    ],
+    [
+      "ffa0b4a5-2124-49cb-8124-0e41e28a9a02",
+      "ALU_LOGIC_MODULE2"
     ]
   ],
   "text_variables": {},
