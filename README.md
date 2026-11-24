@@ -41,12 +41,12 @@ So, even though all the schematics are complete, that doesn't mean the PCBs have
 
 * [ ] ALU
 * [ ] MAR
-* [ ] MDR
-* [ ] SP
-* [ ] HP
-* [ ] GPRs
+* [x] MDR
+* [x] SP
+* [x] HP
+* [x] GPRs
 * [ ] FR
-* [ ] PC
+* [x] PC
 * [ ] IR
 * [ ] IC
 * [ ] CU
