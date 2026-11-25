@@ -4176,7 +4176,7 @@
 		)
 		(uuid "ca8670d9-4513-4ccd-ae72-35f4734c82d0")
 	)
-	(hierarchical_label "FR_DATA_OUT"
+	(hierarchical_label "#FR_DATA_OUT"
 		(shape input)
 		(at 92.71 91.44 270)
 		(effects

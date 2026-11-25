@@ -4453,6 +4453,16 @@
 		)
 		(uuid "bd792157-14a2-44e2-9c3b-e4dab1860167")
 	)
+	(text "SET_NORMAL_OPERATION"
+		(exclude_from_sim no)
+		(at 118.11 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fe18d24-d57b-4cdf-acf8-f53bbf5d4729")
+	)
 	(text "INTERRUPT_ACTIVE"
 		(exclude_from_sim no)
 		(at 132.08 183.896 0)
@@ -4503,6 +4513,16 @@
 			)
 		)
 		(uuid "7432c0f6-afd6-4f53-8c69-c672a9c73b9f")
+	)
+	(text "SET_SUPERVISOR"
+		(exclude_from_sim no)
+		(at 95.504 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74bed0e0-f7d0-4869-8b72-ffed3b8b294a")
 	)
 	(text "NOT from one NOR"
 		(exclude_from_sim no)
